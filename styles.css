@@ -9,8 +9,9 @@
     cursor: pointer;
 }
 
-.logo-img{
-    width: 50px;
+.logo-container img{
+    width: 3vh;
+    max-height: fit-content;
     height: auto;
     display: block;
 }
