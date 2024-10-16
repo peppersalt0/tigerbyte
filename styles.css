@@ -5,13 +5,8 @@
     background-color: #222323;
     border-radius: 7px;
     border: 5px solid #f0f6f0;
-    width: 210px;
-    height: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
-    gap: 10px;
+    width: 15vh;
+    cursor: pointer;
 }
 
 .logo-img{
@@ -25,7 +20,41 @@
     font-size: 1.5 rem;
     color:#f0f6f0;
     font-weight: 400;
-    margin: 0px;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #2d2e2e;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    height: 6vh;
+    border-radius: 7px;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img
+{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+    border: 2px solid white;
 }
 
 body{
