@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
-import PageContainer from "@/components/layout/PageContainer";
+
 
 export const metadata: Metadata = {
   title: "tigerbyte",
@@ -17,9 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-          <PageContainer>
             {children}
-          </PageContainer>
       </body>
     </html>
   );
