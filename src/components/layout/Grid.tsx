@@ -4,7 +4,7 @@ const cardData = [
   {
     title: "Arrays",
     summary: "A linear collection of elements stored in contiguous memory locations.",
-    image: "/path-to-your-image.jpg",
+    image: "/images/arrayCard.png",
     slug: "arrays"
   },
   {
@@ -16,7 +16,7 @@ const cardData = [
   {
     title: "Linked Lists",
     summary: "A sequence of elements where each element points to the next element in the sequence.",
-    image: "/path-to-your-image.jpg",
+    image: "/images/linkedlistCard.png",
     slug: "linked-lists"
   },
   {
